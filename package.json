@@ -1,10 +1,10 @@
 {
   "name": "@hexlet/code",
-  "type":"module",
+  "type": "module",
   "bin": {
     "brain-games": "bin/brain-games.js"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "[![Actions Status](https://github.com/PaszaDjegr/backend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/PaszaDjegr/backend-project-lvl1/actions)",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/PaszaDjegr/backend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/PaszaDjegr/backend-project-lvl1#readme"
+  "homepage": "https://github.com/PaszaDjegr/backend-project-lvl1#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
