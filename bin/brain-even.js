@@ -4,7 +4,6 @@ console.log('Answer "yes" if the number is even, otherwise answer "no".');
 for (let i = 0; i < 3; i += 1) {
   const number = Math.floor(Math.random() * (100 - 1)) + 1;
   console.log(number);
-
   const answer = readlineSync.question('Your answer:').toLowerCase();
 
   const isEven = number % 2 === 0;
